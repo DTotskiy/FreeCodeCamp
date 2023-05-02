@@ -183,6 +183,47 @@ myStr += " This is the second sentence.";
 const myName = "Dmitriy ";
 const myStr = "My name is " + myName + "and I am well!";
 
+//31. Appending Variables to Strings:
+
+// Change code below this line
+const someAdjective = "cool!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+
+//32. Find the Length of a String:
+
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+
+//33. Use Bracket Notation to Find the First Character in a String:
+
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+//34. Understand String Immutability:
+
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+
+//35. Use Bracket Notation to Find the Nth Character in a String:
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
 
 
 
