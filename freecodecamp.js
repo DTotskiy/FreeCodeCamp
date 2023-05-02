@@ -225,5 +225,41 @@ const lastName = "Lovelace";
 // Only change code below this line
 const thirdLetterOfLastName = lastName[2]; // Change this line
 
+//36. Use Bracket Notation to Find the Last Character in a String:
 
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+//37. Use Bracket Notation to Find the Nth-to-Last Character in a String:
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName [lastName.length - 2]; // Change this line
+
+//38. Word Blanks:
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+let wordBlanks = "Once there was a " + myNoun + " which was very " + myAdjective + ". ";
+wordBlanks += "It " + myVerb + " " + myAdverb + " around the yard."; // Change this line
+// Only change code above this line
+
+//39. Store Multiple Values in one Variable using JavaScript Arrays:
+
+// Only change code below this line
+const myArray = ["one", 1];
+
+//40. Nest one Array within Another Array:
+
+// Only change code below this line
+const myArray = [["one", 1], ["two", 2]];
 
