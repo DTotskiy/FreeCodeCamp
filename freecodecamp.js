@@ -263,3 +263,74 @@ const myArray = ["one", 1];
 // Only change code below this line
 const myArray = [["one", 1], ["two", 2]];
 
+//41. Access Array Data with Indexes:
+
+const myArray = [50, 60, 70];
+let myData = myArray[0];
+
+//42. Modify Array Data With Indexes:
+
+// Setup
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+// Only change code below this line
+
+//43. Access Multi-Dimensional Arrays With Indexes:
+
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+
+//44. Manipulate Arrays With push Method:
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3])
+// Only change code below this line
+
+//45. Manipulate Arrays With pop Method:
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop();
+// Only change code below this line
+
+//46. Manipulate Arrays With shift Method:
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift();
+// Only change code below this line
+
+//47. anipulate Arrays With unshift Method:
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+// Only change code below this line
+
+//48. Shopping List:
+
+const myList = [["Banana", 1], ["Apple", 2], ["Orange", 3], ["Pineapple", 4], ["Watermelon", 5]];
+
+//49. Write Reusable JavaScript with Functions:
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction()
+
+//50. Passing Values to Functions with Arguments:
+
+function functionWithArgs (param1, param2) {
+  console.log(param1 + param2);
+}
+functionWithArgs (1,2);
+
+
